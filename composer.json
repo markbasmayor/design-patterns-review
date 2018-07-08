@@ -1,0 +1,17 @@
+{
+    "name": "mark/design_patterns",
+    "description": "sample implementation of design patterns",
+    "type": "project",
+    "authors": [
+        {
+            "name": "markbasmayor",
+            "email": "mark.basmayor@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {"DP\\": "src/"}
+    }
+}
